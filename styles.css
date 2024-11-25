@@ -1,0 +1,932 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+  
+li {
+  list-style: none;
+}
+
+/* Header Section */
+/* Nav Bar */
+nav {
+  display: block;
+  padding: 10px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+nav .logo {
+  display: inline-block;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+nav .nav-links {
+  list-style: none;
+  display: inline-block;
+  margin: 20px 20px 0 0;
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
+
+nav .nav-links li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav .nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.bars {
+  display: none;
+}
+  
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+.header {
+  color: #fff;
+  background-image: url(./img/carousel-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 2rem 2rem 2rem;
+  display: block;
+}
+
+.header-Content {
+  margin: 0rem 0 0rem 0;
+  padding: 10% 30% 10% 30%;
+  text-align: left;
+  display: block;
+}
+
+.header-Content p{
+  font-size: 12px;
+}
+
+.header-Content h1{
+  font-size: 48px;
+}
+  
+.btn {
+  background: #ff9900;
+  color: black;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* About Section */
+.About{
+  position: relative;
+  margin-top: 50px;
+  text-align: justify;
+  width: 100%;
+  padding: 4rem 5% 2rem 5%;
+  display: inline-block;
+}
+
+.About img {
+  width: 30%;
+  display: inline-block;
+  border: 10px solid rgb(228, 228, 228);
+}
+
+.about-Content{
+  display: inline-block;
+  vertical-align: top;
+  width: 69%;
+  padding: 1rem 0 2rem 5%;
+}
+
+.about-Content h3 {
+  color: orange;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.about-Content1 {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.about-Content p{
+  margin-bottom: 20px;
+}
+
+.Address {
+  display: block;
+  padding: 0rem 5% 2rem 5%;
+  text-align: center;
+}
+
+.Address1{
+  background-color: rgb(231, 231, 231);
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px;
+  width: 33%;
+}
+
+.Address1 div {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: justify;
+}
+
+.Address span {
+  color: #ff9900;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* Services-section */
+.services-section {
+  position: relative;
+  padding: 40px;
+}
+
+.intro {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+}
+
+.intro h3 {
+  color: orange;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.intro .btn {
+  display: inline-block;
+  background: orange;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.services {
+  display: inline-block;
+  width: 55%;
+}
+
+.service {
+  display: inline-block;
+  width: 45%;
+  margin: 10px 2%;
+  background: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  vertical-align: top;
+}
+
+.service .icon {
+  font-size: 2rem;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.service h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.service a {
+  color: orange;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Why Choose Us Section */
+.why-choose {
+  position: relative;
+  margin-top: 50px;
+}
+
+.Why-Choose-Us{
+  display: inline-block;
+  width: 40%;
+}
+.why-choose h3 {
+  color: orange;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.why-choose h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.why-choose1 {
+  display: inline-block;
+}
+
+.why-choose p {
+  margin-bottom: 20px;
+}
+
+.why-choose ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-choose ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.stats {
+  display: inline-block;
+  width: 55%;
+  vertical-align: top;
+}
+
+.stat {
+  display: inline-block;
+  width: 47%;
+  margin: 1% 1%;
+  text-align: center;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.stat h3 {
+  font-size: 2rem;
+  color: orange;
+}
+
+.stat p {
+  font-size: 1rem;
+}
+
+/* team Section */
+.team {
+  position: relative;
+  margin-top: 50px;
+  padding: 0px 40px 40px 40px;
+}
+
+.team1{
+  display: inline-block;
+}
+
+.meet-teem {
+  display: inline-block;
+  width: 40%;
+  margin-bottom: 30px;
+  text-align: justify;
+  vertical-align: top;
+}
+
+.meet-teem h3 {
+  color: orange;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.meet-teem h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.meet-teem p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.meet-teem .btn {
+  padding: 10px 20px;
+}
+
+.staff {
+  display: inline-block;
+  width: 59%;
+}
+
+.staff div {
+  display: inline-block;
+  width: 30%;
+  background-color: rgb(231, 231, 231);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1% 1%;
+  text-align: center;
+  vertical-align: top;
+}
+
+.staff img {
+  width: 100%;
+}
+
+.staff h4 {
+  margin: 10px;
+}
+
+.staff p {
+  margin-bottom: 10px;
+}
+
+.pricing-and-reviews {
+  position: relative;
+  padding: 40px;
+}
+
+/* Pricing Section */
+.pricing-section {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.pricing-card {
+  display: inline-block;
+  width: 28%;
+  margin: 0 1%;
+  background: #f9f9f9;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  vertical-align: top;
+}
+
+.pricing-card h4 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.pricing-card h3 {
+  font-size: 2rem;
+  color: orange;
+  margin-bottom: 15px;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.pricing-card .btn {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.pricing-info {
+  display: inline-block;
+  width: 36%;
+  margin-left: 2%;
+  vertical-align: top;
+}
+
+.pricing-info h3 {
+  color: orange;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.pricing-info h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.pricing-info p {
+  margin-bottom: 20px;
+}
+
+.pricing-info .btn {
+  padding: 10px 20px;
+}
+
+/* Reviews Section */
+.reviews-section {
+  position: relative;
+  margin-top: 50px;
+  display: inline-block;
+  width: 100%;
+}
+
+.reviews-intro {
+  position: relative;
+  width: 40%;
+  display: inline-block;
+}
+
+.reviews-intro h3 {
+  color: orange;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.reviews-intro h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.reviews-intro p {
+  margin-bottom: 20px;
+}
+
+.reviews-intro .btn {
+  padding: 10px 20px;
+}
+
+.reviews {
+  display: inline-block;
+  width: 59%;
+  vertical-align: top;
+}
+
+.review {
+  display: inline-block;
+  width: 45%;
+  margin: 0 2.2%;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  vertical-align: top;
+  text-align: justify;
+}
+
+.review p {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.client {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.client img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.client div {
+  display: inline-block;
+  text-align: justify;
+}
+
+.client h4 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.client p {
+  font-size: 0.8rem;
+}
+
+/* Blog Section */
+.Blogs-Section {
+  position: relative;
+  margin: 50px 0 100px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 0 5% 0 5%;
+}
+
+.Blogs {
+  width: 100%;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.blogs h3 {
+  color: orange;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 10px;  
+}
+
+.Blog {
+  display: inline-block;
+  width: 47%;
+  margin: 1%;
+}
+
+.blog1 {
+  background-color: orange;
+  width: 80px;
+  transform: translate(0%, -110%);
+}
+
+.Blog-img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog2 {
+  text-align: justify;
+  margin-top: -40px;
+}
+
+.Blog-imgs {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.blog2 p {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15px;
+  margin-left: 15px; 
+}
+
+.Blog-p2 {
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/* Contact Section */
+.Contact-Section {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 80px 0;
+}
+
+.contact {
+  vertical-align: top;
+  display: inline-block;
+  text-align: justify;
+  width: 22%;
+  padding-right: 20px;
+}
+
+.contact .logo {
+  font-size: 42px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.contact ul {
+  display: inline-block;
+  text-align: justify;
+}
+
+.contact li {
+  display: inline-block;
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-size: 20px;
+  margin: 8px 5px 0 0;
+}
+
+.logo1 {
+  color: orange;
+}
+
+.Quick {
+  display: inline-block;
+  text-align: justify;
+  width: 22%;
+  vertical-align: top;
+}
+
+.Quick h3 {
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.Quick li {
+  margin: 10px 0;
+}
+
+.Footer {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  nav .logo {
+    margin-right: 300px;
+  }
+
+  .header-Content {
+    padding: 10% 20% 10% 20%;
+  }
+
+  .about-Content1 {
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  .about-Content p{
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 1rem 2rem 0rem 2rem;
+  }
+  .header-Content {
+    padding: 0 20% 10% 20%;
+  }
+  .About {
+    padding: 0 5% 2rem 5%;
+  }
+  .about-Content{
+    padding: 0 0 2rem 5%;
+  }
+  .Address1 {
+    width: 31%;
+    height: 150px;
+    text-align: left;
+    vertical-align: top;
+  }
+  .Address1 div {
+    display: block;
+  }
+  .Address span {
+    font-size: 28px;
+  }
+  .service p {
+    display: none;
+  }
+  .why-choose h2 {
+    font-size: 1.5rem;
+  }
+  .team {
+    padding: 0px 40px 0 40px;
+  }
+  .meet-teem h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .meet-teem p {
+    margin-bottom: 0;
+  }
+  .meet-teem .btn {
+    padding: 5px 20px;
+  }
+  .pricing-and-reviews {
+    padding: 20px 40px 40px 40px;
+  }
+  .pricing-info h2 {
+    font-size: 1.5rem;
+  }
+  .reviews-section {
+    margin-top: 0px;
+  }
+  .reviews-intro h2 {
+    font-size: 1.5rem;
+  }
+  .reviews {
+    text-align: center;
+  }
+  .review {
+    width: 47%;
+    margin: 0 1%;
+    padding: 20px 5px 20px 5px ;
+    text-align: left;
+  }
+  .Blogs-Section {
+    margin: 0px 0 50px 0;
+  }
+  .Contact-Section {
+    padding: 40px 0;
+  }
+  .contact {
+    width: 33%;
+  }
+  .Quick {
+    width: 25%;
+  }
+  .Populer {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  nav {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  nav .logo {
+    font-size: 22px;
+  }
+  nav .nav-links {
+    display: none;
+  }
+  .bars {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+  .header-Content p{
+    font-size: 8px;
+  }
+  .header-Content h1{
+    font-size: 24px;
+  }
+  .btn {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+  .About img {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+  }
+  .about-Content{
+    display: inline;
+    width: 100%;
+    padding: 0 0 2rem 0;
+  }
+  .about-Content h3 {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+  .about-Content1 {
+    font-size: 16px;
+  }
+  .Address1{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  .Address span {
+    font-size: 40px;
+    text-align: center;
+  }
+  .Address1 div {
+    display: inline-block;
+  }
+  .intro {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .intro .btn {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+  .services {
+    display: inline-block;
+    width: 100%;
+  }
+  .service {
+    width: 49%;
+    margin: 10px 0;
+    display: inline-block;
+  }
+  .service .icon {
+    display: inline-block;
+  }
+  .service h4 {
+    font-size: 1rem;
+    display: inline-block;
+  }
+  .why-choose {
+    margin-top: 30px;
+  }
+  .Why-Choose-Us{
+    display: inline-block;
+    width: 100%;
+  }
+  .stats {
+    width: 100%;
+  }
+  .team {
+    position: relative;
+    margin-top: 0px;
+  }
+  .meet-teem {
+    width: 100%;
+  }
+  .meet-teem .btn {
+    padding: 8px 14px;
+  }
+  .staff {
+    width: 100%;
+  }
+  .staff div {
+    width: 32%;
+    height: 224px;
+    margin: 1% 0;
+  }
+  .pricing-card {
+    width: 49%;
+    margin: 0;
+    padding: 20px 10px;
+  }
+  .pricing-info {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .reviews-intro {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .reviews {
+    width: 100%;
+  }
+  .client img {
+    margin-right: 0px;
+  }
+  .Blogs-Section {
+    margin: 50px 0 40px 0;
+  }
+  .Blog {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .blog2 {
+    text-align: justify;
+    margin-top: -60px;
+  }
+  .Blog-p2 {
+    margin-top: 5px;
+  }
+  .contact {
+    width: 90%;
+    padding-right: 0px;
+  }
+  .contact .logo {
+    margin-bottom: 0px;
+  }
+  .contact p {
+    display: none;
+  }
+  .Quick {
+    width: 45%;
+    margin-top: 20px;
+  }
+}
